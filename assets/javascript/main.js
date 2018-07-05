@@ -35,15 +35,9 @@ $(".rankTwo").click(function(){
 });
 
 $(".rankThree").click(function(){
-    rank2++;
-    $(".rankThree").html("<button class=' ranks rankThree'> Rank Three: " + rank2 + "</h2>");
+    rank3++;
+    $(".rankThree").html("<button class=' ranks rankThree'> Rank Three: " + rank3 + "</h2>");
 });
-
-
-
-
-
-
 
 
 
@@ -63,6 +57,9 @@ function timer() {
     function increment(){
         if (counter >= 0) {
             counter++;
+            var test = rank1 * counter;
+            totalHits = refresh + test;
+            $(".totalHits").html("<h2 class='totalHits'> Total Hits: " + totalHits + "</h2>");
         }
         $(".timer").html("<div>Timer: " + counter + "</div>");
     }
