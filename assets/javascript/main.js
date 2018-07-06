@@ -26,17 +26,17 @@ $(".clickBtn").click(function(){
 
 $(".rankOne").click(function(){
     rank1++;
-    $(".rankOne").html("<button class=' ranks rankOne'> Rank One: " + rank1 + "</h2>");
+    $(".rankOne").html("<button class='ranks rankOne'> Rank One: " + rank1 + "</h2>");
 });
 
 $(".rankTwo").click(function(){
     rank2++;
-    $(".rankTwo").html("<button class=' ranks rankTwo'> Rank Two: " + rank2 + "</h2>");
+    $(".rankTwo").html("<button class='ranks rankTwo'> Rank Two: " + rank2 + "</h2>");
 });
 
 $(".rankThree").click(function(){
     rank3++;
-    $(".rankThree").html("<button class=' ranks rankThree'> Rank Three: " + rank3 + "</h2>");
+    $(".rankThree").html("<button class='ranks rankThree'> Rank Three: " + rank3 + "</h2>");
 });
 
 
